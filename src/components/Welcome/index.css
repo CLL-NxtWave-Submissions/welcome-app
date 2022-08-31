@@ -1,5 +1,5 @@
 .welcome-bg-container {
-  color: #1e293b;
+  background-color: #1e293b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,17 +11,22 @@
 
 .welcome-header {
   color: #f0bb03;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .welcome-message {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .subscribe-button {
   color: #1e293b;
   background-color: #ffffff;
   font-size: 1rem;
-  padding: 0.5rem 1rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
 }
