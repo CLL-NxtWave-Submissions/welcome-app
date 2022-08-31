@@ -1,1 +1,27 @@
-/* Write your CSS here */
+.welcome-bg-container {
+  color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+  font-family: 'Bree Serif';
+}
+
+.welcome-header {
+  color: #f0bb03;
+  font-size: 2.5rem;
+}
+
+.welcome-message {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.subscribe-button {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
